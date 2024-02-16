@@ -15,8 +15,8 @@ const req = (arr, i) => {
     if (err) {
       throw err;
     } else {
-        console.log(JSON.parse(body).name);
-        req(arr, i + 1);
+      console.log(JSON.parse(body).name);
+      req(arr, i + 1);
     }
   });
 };
